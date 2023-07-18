@@ -3,8 +3,22 @@ body {
     background-color: #e9b08e;
 }
 
-.header.title {
+.header-title {
     text-align: center;
-    color: #a4330d;
+    color: #5e3c2c;
     font-size: 55px;
 }
+
+.recipe-name {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    line-height: 4;
+}
+
+a {
+    color: #a4330d;
+}
+
+
