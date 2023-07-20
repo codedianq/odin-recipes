@@ -7,8 +7,8 @@ body {
     background-color: #dbcdb5;
 }
 
-.header-title,
-.recipe-title {
+/* This section is for the home page */
+.header-title {
     text-align: center;
     color: #5e3c2c;
     font-size: 40px;
@@ -37,27 +37,53 @@ body {
     display: block;
 }
 
+/* This section is for the recipes */
+.recipe-overview {
+    border: 2px solid #5e3c2c;
+    width: 1000px;
+    height: 304px;
+    margin: 50px auto;
+    background-color: #5e3c2c;
+    color: #e9b08e;
+    
+}
+
+.food-picture {
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+}
+
+.food-overview {
+    display: inline-block;
+    vertical-align: top;
+    width: 550px;
+}
+
+.recipe-title {
+    margin-top: 0;
+}
+
 a {
     color: #e9b08e;
 }
 
-.recipe-title {
-    font-size: 45px;
-}
-
-h2,
-h3,
-.short-desc {
-    text-align: center;
-    color: #8d4122;
-}
-
-.short-desc {
-    color: #1f440a;
+h3 {
+    color: #5e3c2c;
 }
 
 li {
     color: #1f440a;
+}
+
+.button {
+    display: block;
+    background-color: #a4330d;
+    text-decoration: none;
+    margin: 20px auto;
+    width: 200px;
+    height: 20px;
+    text-align: center;
 }
 
 
