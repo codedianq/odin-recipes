@@ -1,3 +1,7 @@
+* {
+    /* border: dotted red; */
+    box-sizing: border-box;
+}
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #dbcdb5;
@@ -7,31 +11,38 @@ body {
 .recipe-title {
     text-align: center;
     color: #5e3c2c;
-    font-size: 55px;
+    font-size: 40px;
 }
 
-.recipe-name {
+.link-container {
+    text-align: center;
+}
+
+.thumbnail {
+    display: inline-block;
+    border: 2px solid #5e3c2c;
     text-align: center;
     text-decoration: none;
-    list-style: none;
-    font-size: 20px;
-    line-height: 4;
+    background-color: #5e3c2c;
+    line-height: 30px;
+    margin: 30px;
+    width: 350px;
+    height: 330px
+    /* box-shadow: 5px 5px 10px add color here; */
+}
+
+.thumbnail-img {
+    width: 346px;
+    height: 300px;
+    display: block;
 }
 
 a {
-    color: #a4330d;
+    color: #e9b08e;
 }
 
 .recipe-title {
     font-size: 45px;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 500px;
 }
 
 h2,
